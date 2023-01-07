@@ -14,7 +14,7 @@ export interface Selection {
     disk: Disk;
 }
 
-const NUM_DISKS = 3;
+const NUM_DISKS = 5;
 
 export const numDisks = writable<number>(NUM_DISKS);
 export const towers = writable<Tower[]>([]);
